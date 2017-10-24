@@ -20,7 +20,6 @@ while 1 == 1:
         if not re.search(pattern3, password[0]):
             print("ERROR: Password must begin with a letter")
             pointer +=1
-        print(splitted)
         if pointer > 0:
             raise Exception
     except Exception:
